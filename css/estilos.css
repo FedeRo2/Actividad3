@@ -1,0 +1,109 @@
+/* Agregar: fuentes de Google, iconos de FontAwesome */
+
+/* ESTILO EN TODO EL HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO EN TODO HEADER */
+header {
+    display: flex;
+}
+
+/* ESTILO EN EL DIV DENTRO DEL HEADER */
+header div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+}
+
+#logo {
+    display: flex;
+}
+
+/* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
+.barra-nav {
+    display: flex;
+}
+
+/* ESTILOS EN ENLACES HREF */
+a {
+    text-decoration: none;
+}
+
+/* ESTILOS EN EL BODY */
+body {
+    margin: 10px;
+}
+
+/* ESTILOS EN H1, H2, H3 */
+h1, h2, h3 {
+    margin: 10px;
+}
+
+.main-section-index {
+    background-color:aqua;
+    height: 50vh;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESTILOS EN IMÁGENES */
+img {
+    margin: 10px 5px;
+    border: 1px solid;
+    padding: 7px;  
+}
+
+/* ESTILOS EN TABLA */
+table,
+th,
+td {
+    table-layout: fixed;
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* ESTILO SOLO EN EL TH */
+th {
+    background-color: bisque;
+}
+
+/* ESTILOS EN EL FORMULARIO */
+form {
+    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 40vh;
+    background-color: white;
+}
+
+/* ESTILOS INPUT y LABEL */
+input, label {
+    margin: 10px;
+    width: 80%;
+}
+
+/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO */
+.enviar {
+    width: fit-content;
+}
+
+/* ESTILOS EN EL FOOTER */
+footer {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
