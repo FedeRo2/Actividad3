@@ -39,7 +39,8 @@ a {
 
 /* ESTILOS EN EL BODY */
 body {
-    margin: 10px;
+    background-color: rgb(246, 167, 138);
+    margin: 5px;
 }
 
 /* ESTILOS EN H1, H2, H3 */
@@ -48,7 +49,7 @@ h1, h2, h3 {
 }
 
 .main-section-index {
-    background-color:aqua;
+    background-color: aqua;
     height: 50vh;
     margin: 5%;
 
@@ -107,4 +108,3 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
-
