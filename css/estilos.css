@@ -86,6 +86,7 @@ form {
     display: block;
     width: 40vh;
     background-color: white;
+    border: solid;
 }
 
 /* ESTILOS INPUT y LABEL */
