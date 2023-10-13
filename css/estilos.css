@@ -39,17 +39,34 @@ a {
 
 /* ESTILOS EN EL BODY */
 body {
-    background-color: rgb(246, 167, 138);
+    background-color: rgb(226, 209, 203);
     margin: 5px;
 }
 
 /* ESTILOS EN H1, H2, H3 */
-h1, h2, h3 {
+  h1 { 
+    color: rgb(199, 191, 83);
+    font-family: 'Sofia', cursive;
+    font-size: 24px;
+    /* style="color:blueviolet; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"*/
+    
+ }
+
+ p { 
+    color: black;
+ }
+
+ h2 {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px; }
+      a { 
+        color: rgb(211, 89, 45);
+      }
     margin: 10px;
-}
+
 
 .main-section-index {
-    background-color: aqua;
+    background-color: rgb(224, 181, 101);
     height: 50vh;
     margin: 5%;
 
