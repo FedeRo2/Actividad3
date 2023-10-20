@@ -4,16 +4,18 @@
 
 /* ESTILO EN TODO EL HTML */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    width: auto;
+    margin: auto;
+    padding: 30px ;
+    
 }
 
 /* ESTILO EN TODO HEADER */
 header {
-    display: flex;
+    height: auto
+    display flex;
     border: 3px solid burlywood;
-    background-color: azure;
+    background-color:azure;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -37,8 +39,11 @@ header div {
 }
 
 /* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
-.barra-nav {
-    display: flex;
+ a:hover{
+    color: azure;
+    background-color: chocolate;
+    
+        
 }
 
 /* ESTILOS EN ENLACES HREF */
