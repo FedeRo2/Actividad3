@@ -1,5 +1,5 @@
 /* Agregar: fuentes de Google, iconos de FontAwesome */
-
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
   
 
 /* ESTILO EN TODO EL HTML */
@@ -12,6 +12,11 @@
 /* ESTILO EN TODO HEADER */
 header {
     display: flex;
+    border: 3px solid burlywood;
+    background-color: azure;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
 }
 
 /* ESTILO EN EL DIV DENTRO DEL HEADER */
@@ -27,6 +32,8 @@ header div {
 
 #logo {
     display: flex;
+    margin: 10px 5px;
+    padding: 7px;
 }
 
 /* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
@@ -41,7 +48,8 @@ a {
 
 /* ESTILOS EN EL BODY */
 body {
-    background-color: rgb(226, 209, 203);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 252, 251);
     margin: 5px;
 }
 
@@ -50,6 +58,7 @@ body {
     color: rgb(199, 191, 83);
     font-family: 'Sofia', cursive;
     font-size: 24px;
+    align-content: center;
     /* style="color:blueviolet; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"*/
     
  }
@@ -64,11 +73,11 @@ body {
       a { 
         color: rgb(211, 89, 45);
       }
-    margin: 10px;
+    
 
 
 .main-section-index {
-    background-color: rgb(224, 181, 101);
+    background-color: rgb(241, 241, 241);
     height: 50vh;
     margin: 5%;
 
