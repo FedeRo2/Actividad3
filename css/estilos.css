@@ -3,47 +3,67 @@
   
 
 /* ESTILO EN TODO EL HTML */
-* {
-    width: auto;
-    margin: auto;
-    padding: 30px ;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* ESTILO EN TODO HEADER */
-header {
-    height: auto
-    display flex;
+/* header {
+    display: flex;
     border: 3px solid burlywood;
-    background-color:azure;
+    background-color: azure;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-}
+} */
 
 /* ESTILO EN EL DIV DENTRO DEL HEADER */
-header div {
+header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-    height: auto;
+    border: 3px solid burlywood;
+    height: 100px;
     width: auto;
+    gap: 100px;
+    
 }
 
-#logo {
+.logo {
     display: flex;
-    margin: 10px 5px;
-    padding: 7px;
+    padding: 1px;
+}
+
+.logo img {
+    width: 120px;
+    height: 110px;
+
 }
 
 /* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
- a:hover{
+.barra-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+
+}
+
+.barra-nav a:hover {
     color: azure;
     background-color: chocolate;
-    
-        
+    width: auto;
+    margin: auto;
+    padding: 20px;     
+}
+
+.banner img{
+    width: 100%;
 }
 
 /* ESTILOS EN ENLACES HREF */
@@ -65,7 +85,6 @@ body {
     font-size: 24px;
     align-content: center;
     /* style="color:blueviolet; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"*/
-    
  }
 
  p { 
@@ -78,14 +97,11 @@ body {
       a { 
         color: rgb(211, 89, 45);
       }
-    
-
 
 .main-section-index {
     background-color: rgb(241, 241, 241);
-    height: 50vh;
+    height: 5%;
     margin: 5%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,8 +110,14 @@ body {
 /* ESTILOS EN IMÁGENES */
 img {
     margin: 10px 5px;
-    border: 1px solid;
     padding: 7px;  
+}
+
+.fotos-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 /* ESTILOS EN TABLA */
@@ -111,6 +133,10 @@ td {
 /* ESTILO SOLO EN EL TH */
 th {
     background-color: bisque;
+}
+
+#carouselExampleSlidesOnly {
+    width: 18rem;
 }
 
 /* ESTILOS EN EL FORMULARIO */
@@ -139,5 +165,5 @@ footer {
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
