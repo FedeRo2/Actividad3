@@ -1,7 +1,11 @@
 /* Agregar: fuentes de Google, iconos de FontAwesome */
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
   
-
+/*RGB(250, 243, 240)Durazno
+rgb(212, 226, 212)Sabio
+RGB(255, 202, 204)Rosa
+RGB(219, 196, 240)Purpura
+*/
 /* ESTILO EN TODO EL HTML */
 *{
     margin: 0;
@@ -74,13 +78,13 @@ a {
 /* ESTILOS EN EL BODY */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 252, 251);
+    background-color:rgb(250, 243, 240);
     margin: 5px;
 }
 
 /* ESTILOS EN H1, H2, H3 */
   h1 { 
-    color: rgb(199, 191, 83);
+    color: rgb(12, 12, 11);
     font-family: 'Sofia', cursive;
     font-size: 24px;
     align-content: center;
@@ -99,7 +103,7 @@ body {
       }
 
 .main-section-index {
-    background-color: rgb(241, 241, 241);
+    background-color:rgb(212, 226, 212);
     height: 5%;
     margin: 5%;
     display: flex;
@@ -127,7 +131,9 @@ td {
     table-layout: fixed;
     border: solid 2px black;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ESTILO SOLO EN EL TH */
