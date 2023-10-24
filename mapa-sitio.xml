@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gloomaps scheme="1.0">
+  <link>https://www.gloomaps.com/FpENPNczZG</link>
+  <pubdate>10/24/2023</pubdate>
+  <section>
+    <box>
+      <text>Dulzura - Pastelería Artesanal</text>
+      <propa>#ffe4c4</propa>
+      <prope>true</prope>
+      <member>
+        <box>
+          <text>Inicio
+(index.html)</text>
+          <propa>#ffe4c4</propa>
+          <prope>true</prope>
+          <member/>
+        </box>
+        <box>
+          <text>Productos
+(productos.html)</text>
+          <propa>#ffe4c4</propa>
+          <prope>true</prope>
+          <member/>
+        </box>
+        <box>
+          <text>Clientes
+(clientes.html)</text>
+          <propa>#ffe4c4</propa>
+          <prope>true</prope>
+          <member/>
+        </box>
+        <box>
+          <text>Contacto
+(contacto.html)</text>
+          <propa>#ffe4c4</propa>
+          <prope>true</prope>
+          <member/>
+        </box>
+      </member>
+    </box>
+  </section>
+</gloomaps>
