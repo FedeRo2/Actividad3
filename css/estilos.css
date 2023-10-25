@@ -174,3 +174,9 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* ESTILO DE CALIFICACION */
+.calificacion1{ color: gold;}
+.calificacion2{color: gold;}
+.calificacion3{color:gold ;}
+.calificacion4{color: gold;}
