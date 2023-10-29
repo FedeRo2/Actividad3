@@ -7,8 +7,8 @@ rgb(212, 226, 212)Sabio
 RGB(255, 202, 204)Rosa
 RGB(219, 196, 240)Purpura
 */
-/* ESTILO EN TODO EL HTML */
 
+/* ESTILO EN TODO EL HTML */
 * {
     margin: 0;
     padding: 0;
@@ -16,16 +16,6 @@ RGB(219, 196, 240)Purpura
 }
 
 /* ESTILO EN TODO HEADER */
-/* header {
-    display: flex;
-    border: 3px solid burlywood;
-    background-color: azure;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-} */
-
-/* ESTILO EN EL DIV DENTRO DEL HEADER */
 header {
     display: flex;
     flex-direction: row;
@@ -44,12 +34,7 @@ header {
     align-items: center;
 }
 
-/* .logo img {
-    width: 120px;
-    height: 110px;
-}
- */
-/* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
+/* ESTILO EN BARRA DE NAVEGACIÓN */
 .nav {
     display: flex;
     justify-content: center;
@@ -69,7 +54,6 @@ header {
 .nav-link {
     color: rgb(218, 117, 34);
 }
-
 
 .banner img {
     display: flex;
@@ -121,20 +105,28 @@ h2 {
 
 p { 
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
+/* p, h2 {
+    background-color: white;
+}
+ */
 a { 
     color: rgb(211, 89, 45);
 }
 
 .main-section-index {
-    background-color:rgb(212, 226, 212);
+    /* background-color:rgb(212, 226, 212); */
+    /* background-color: #faf3f0; */
+    background-color: white;
     height: 3%;
     margin: 3%;
     padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
 }
 
 .presentación {
@@ -142,32 +134,12 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:2%;
-}
-
-.card-container .card{
-    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
-    padding: 1%;
-    width: 22%;
-    height: 22em;
-    overflow: hidden;
-    }
-
+/* ESTILOS EN LAS TARJETAS DE PRODUCTOS DEL ÍNDICE */
 
 .card .img:hover {
     transform: scale(1.2);
     transition: 1s;
 } 
-
-/* ESTILOS EN IMÁGENES */
-img {
-/*     margin: 10px 5px;
-    padding: 7px;   */
-}
 
 .fotos-productos {
     display: flex;
@@ -176,9 +148,48 @@ img {
     gap: 25px;
     justify-content: center;
     align-items: center;
+/* background-color: rgb(212, 226, 212) */
 }
 
-/* ESTILOS EN TABLA */
+.fotos-productos .card {
+    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
+}
+
+/* ESTILOS EN LA SECCIÓN DELIVERY DE ÍNDICE */
+#delivery h1 {
+    color: rgb(218, 117, 34);
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delivery > img {
+    width: 15%;
+    animation: ease-in animat 1s;
+    border-radius: 10%;
+}
+
+@keyframes animat {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/* ESTILOS EN TABLA DE PRODUCTOS */
 table,
 th,
 td {
@@ -195,8 +206,7 @@ th {
     background-color: bisque;
 }
 
-
-
+/* ESTILOS EN CARRUSEL DE FOTOS EN CLIENTES */
 .container-carrusel  {
     margin: 0;
     display: flex;
@@ -207,7 +217,7 @@ th {
     margin: 0;
 }
 
-/* ESTILOS EN EL FORMULARIO */
+/* ESTILOS EN EL FORMULARIO DE CONTACTO */
 form {
     margin: 10px;
     box-sizing: border-box;
@@ -217,32 +227,91 @@ form {
     border: solid;
 }
 
-/* ESTILOS INPUT y LABEL */
+/* ESTILOS INPUT y LABEL DEL FORMULARIO DE CONTACTO */
 input, label {
     margin: 10px;
     width: 80%;
 }
 
-/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO */
+/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO DE CONTACTO */
 .enviar {
     width: fit-content;
 }
 
 /* ESTILOS EN EL FOOTER */
 footer {
-    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-weight: bold;
+    background-color: burlywood;
+    /* background-color: #FFCACC; */
 }
 
-.testimonios p {
+footer h3 {
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(218, 117, 34); 
+    font-size: 30px;
+}
+
+footer a, i {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* ESTILO EN TESTIMONIOS Y CALIFICACIONES */
+.testimonios h1 {
     display: flex;
+    justify-content: center;
+    align-items: centers;
 }
 
-/* ESTILO DE CALIFICACION */
-.calificacion1{ color: gold;}
-.calificacion2{ color: gold;}
-.calificacion3{ color: gold;}
-.calificacion4{ color: gold;}
+/* .testimonios p {
+    display: flex;
+} */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    font-size: 24px;
+}
+
+.card-container .card{
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
+    padding: 1%;
+    width: 22%;
+    height: 22em;
+    overflow: hidden;
+}
+
+.calificacion1 { 
+    color: gold;
+    font-size: 40px;
+}
+
+.calificacion2 { 
+    color: gold;
+    font-size: 40px;
+}
+
+.calificacion3 { 
+    color: gold;
+    font-size: 40px;
+}
+
+.calificacion4 { 
+    color: gold;
+    font-size: 40px;
+}
 
