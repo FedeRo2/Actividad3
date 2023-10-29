@@ -1,5 +1,6 @@
 /* Agregar: fuentes de Google, iconos de FontAwesome */
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
   
 /*RGB(250, 243, 240)Durazno
 rgb(212, 226, 212)Sabio
@@ -7,7 +8,8 @@ RGB(255, 202, 204)Rosa
 RGB(219, 196, 240)Purpura
 */
 /* ESTILO EN TODO EL HTML */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,43 +33,49 @@ header {
     align-content: center;
     justify-content: flex-start;
     border: 3px solid burlywood;
-    height: 100px;
+    height: fit-content;
     width: auto;
     gap: 100px;
-    
 }
 
 .logo {
     display: flex;
-    padding: 1px;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo img {
+/* .logo img {
     width: 120px;
     height: 110px;
-
 }
-
+ */
 /* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
-.barra-nav {
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-size: 24px;
-
+    font-size: 48px;
 }
 
-.barra-nav a:hover {
+.nav a:hover {
     color: azure;
     background-color: chocolate;
-    width: auto;
-    margin: auto;
-    padding: 20px;     
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 50px 20px;
 }
 
-.banner img{
+.nav-link {
+    color: rgb(218, 117, 34);
+}
+
+
+.banner img {
+    display: flex;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* ESTILOS EN ENLACES HREF */
@@ -79,50 +87,95 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
     background-color:rgb(250, 243, 240);
-    margin: 5px;
+    padding: 0;
 }
 
-/* ESTILOS EN H1, H2, H3 */
-  h1 { 
-    color: rgb(12, 12, 11);
-    font-family: 'Sofia', cursive;
-    font-size: 24px;
-    align-content: center;
-    /* style="color:blueviolet; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"*/
+.container-fluid {
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
  }
 
- p { 
+/* ESTILOS EN H1, H2, H3 */
+h1 { 
+    color: rgb(12, 12, 11);
+    font-family: 'Sofia', cursive;
+    justify-content: center;
+    align-content: center;
+ }
+
+h2 {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.presentacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(218, 117, 34);
+    display: flex;
+    justify-content: center;
+}
+
+p { 
     color: black;
  }
 
- h2 {  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 20px; }
-      a { 
-        color: rgb(211, 89, 45);
-      }
+a { 
+    color: rgb(211, 89, 45);
+}
 
 .main-section-index {
     background-color:rgb(212, 226, 212);
-    height: 5%;
-    margin: 5%;
-    padding: 5%;
+    height: 3%;
+    margin: 3%;
+    padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.presentación {
+    color: rgb(218, 117, 34); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+}
+
+.card-container .card{
+    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
+    padding: 1%;
+    width: 22%;
+    height: 22em;
+    overflow: hidden;
+    }
+
+
+.card .img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+} 
+
 /* ESTILOS EN IMÁGENES */
 img {
-    margin: 10px 5px;
-    padding: 7px;  
+/*     margin: 10px 5px;
+    padding: 7px;   */
 }
 
 .fotos-productos {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
     justify-content: center;
+    align-items: center;
 }
 
 /* ESTILOS EN TABLA */
@@ -142,8 +195,16 @@ th {
     background-color: bisque;
 }
 
-#carouselExampleSlidesOnly {
-    width: 18rem;
+
+
+.container-carrusel  {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.carousel-inner{
+    margin: 0;
 }
 
 /* ESTILOS EN EL FORMULARIO */
@@ -175,8 +236,13 @@ footer {
     justify-content: space-evenly;
 }
 
+.testimonios p {
+    display: flex;
+}
+
 /* ESTILO DE CALIFICACION */
 .calificacion1{ color: gold;}
-.calificacion2{color: gold;}
-.calificacion3{color:gold ;}
-.calificacion4{color: gold;}
+.calificacion2{ color: gold;}
+.calificacion3{ color: gold;}
+.calificacion4{ color: gold;}
+

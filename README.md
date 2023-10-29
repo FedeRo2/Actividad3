@@ -1,8 +1,6 @@
 # Actividad 3: Proyecto Grupal.
 ## Introducción a la programación web UNC 2023 - Grupo 9
 
-## Nuestra web: 👉🏻👉 https://federo2.github.io/Actividad3/
-
 Desarrollamos para esta actividad el sitio web al que llamamos "Dulzura - Pastelería Artesanal". De acuerdo a las consignas solicitadas utilizamos HTML, CSS, Bootstrap, JavaScript y metodologías ágiles (SCRUM). Junto con herramientas como Visual Studio Code y Github Desktop. 
 
 - Nuestro tablero Kanban: [Github Projects](https://github.com/users/FedeRo2/projects/1/views/1?layout=table)
@@ -21,3 +19,4 @@ Desarrollamos para esta actividad el sitio web al que llamamos "Dulzura - Pastel
 * GitHub Desktop (control de versiones)
 * Repositorio subido en GitHub
 
+## Nuestra web: 👉🏻👉 https://federo2.github.io/Actividad3/

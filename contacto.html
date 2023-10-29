@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="En pasteleria Dulzura tenemos una amplia variedad de tortas y tartas, hechas a mano y de forma casera. La elaboracion de nuestros productos es con mucha dedicacion y siguiendo las recetas tradicionales de nuestra familia."> <!--Poner aquí la descripción del sitio web-->
-    <meta name="keywords" content="dulzura, pasteleria, torta, tartas, caseras, cordoba, cordoba capital, tradicional"> <!--Poner aquí las palabras claves para los buscadores-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="description" content=""> <!--Poner aquí la descripción del sitio web-->
+    <meta name="keywords" content=""> <!--Poner aquí las palabras claves para los buscadores-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="img/panadero.png" type="image/x-icon">
 
     <title>Contacto</title>
@@ -20,107 +23,125 @@
 
     <div class="container-fluid">
 
-        <div class="header">
-            <header>
+                    <header>
                 <!-- Aquí va el logo del sitio web-->
                 <div class="logo">
-                  
-                <a href="./index.html"> <img src="img/logo.png" alt="Logo" height="200px"> </a> 
+
+                    <a href="./index.html"> <img src="img/logo.png" alt="Logo"> </a>
 
                 </div>
 
                 <!--Aquí está la barra de navegación-->
-                <nav class="barra-nav">
+                <!--                 <nav class="barra-nav">
                     <a href="./index.html">Inicio</a> |
                     <a href="./productos.html">Productos</a> |
                     <a href="./clientes.html">Clientes</a>
                 </nav>
-    
+     -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clientes.html">Clientes</a>
+                    </li>
+                </ul>
+
             </header>
-        </div>
-
-    <br> <!--Esto en un salto de línea después de la barra de navegación-->
-    <hr> <!--Esto es una línea de sepración después de la barra de navegación-->
-    
-    <main> <!-- Aquí comienza el contenido principal-->
-
-        <section>
-            <img src="img/comunicar.png" alt="contacto-imagen" height="150px"> <!--Alguna imágen sobre el contenido-->  
-        </section>
         
-    <br> <!--Esto en un salto de línea después del contenido principal-->
+        <br> <!--Esto en un salto de línea después de la barra de navegación-->
+        <hr> <!--Esto es una línea de sepración después de la barra de navegación-->
 
-        <section>
+        <main> <!-- Aquí comienza el contenido principal-->
 
-            <br>
-            
-            <p>
-                Ante una consulta completa el formulario y nos pondremos en contacto contigo.
-            </p>
+            <section>
+                <img src="img/comunicar.png" alt="contacto-imagen" height="150px">
+                <!--Alguna imágen sobre el contenido-->
+            </section>
 
-            <br>
+            <br> <!--Esto en un salto de línea después del contenido principal-->
 
-            <form action="" autocomplete="on"> <!--Aquí el formulario de contacto con las validaciones-->
+            <section>
 
-                <fieldset>
-                    <h3>Datos de contacto</h3>
-                    <br>
-                    <label for="nombre">Nombre (obligatorio):</label>
+                <br>
 
-                    <br>
+                <p>
+                    Ante una colsulta completa el formulario y nos pondremos en contacto contigo.
+                </p>
 
-                    <input type="text" id="nombre" required name="form_name" minlength="3" placeholder=" Escribe tu nombre aquí.">
+                <br>
 
-                    <br>
+                <form action="" autocomplete="on"> <!--Aquí el formulario de contacto con las validaciones-->
 
-                    <label for="mail">E-mail (obligatorio):</label>
-                    <input type="email" id="mail" required name="form_mail" placeholder=" Escribe tu email aquí.">
+                    <fieldset>
+                        <h3>Datos de contacto</h3>
+                        <br>
+                        <label for="nombre">Nombre (obligatorio):</label>
 
-                    <br>
-                    <br>
+                        <br>
 
-                    <input class="enviar" type="submit" value="Enviar">
-                </fieldset>
+                        <input type="text" id="nombre" required name="form_name" minlength="3"
+                            placeholder=" Escribe tu nombre aquí.">
 
-            </form>
+                        <br>
 
-    <br> <!--Esto en un salto de línea-->
+                        <label for="mail">E-mail (obligatorio):</label>
+                        <input type="email" id="mail" required name="form_mail" placeholder=" Escribe tu email aquí.">
 
-        </section>
-    </main>
+                        <br>
+                        <br>
 
-    <br> <!--Esto en un salto de línea después del contenido principal-->
-    <hr> <!--Esto es una línea de separación después del contenido principal-->
+                        <input class="enviar" type="submit" value="Enviar">
+                    </fieldset>
 
-    <footer> <!--Pie de página de ejemplo-->
+                </form>
 
-        <div class="derechos-autor">
-            <!--Derechos de autor-->
-            <h4>Grupo 9 - UNC &reg;</h4>
+                <br> <!--Esto en un salto de línea-->
 
-        </div>
+            </section>
+        </main>
 
-        <br> <!--Esto en un salto de línea-->
+        <br> <!--Esto en un salto de línea después del contenido principal-->
+        <hr> <!--Esto es una línea de separación después del contenido principal-->
 
-        <!-- PONER AQUÍ LAS REDES SOCIALES -->
-        <div class="redes">
+        <footer> <!--Pie de página de ejemplo-->
 
-            <h4>Síguenos:</h4>
+            <div class="derechos-autor">
+                <!--Derechos de autor-->
+                <h4>Grupo 9 - UNC &reg;</h4>
 
-            <i class='bx bxl-instagram' ></i><a href="https://www.instagram.com/?hl=es" target="_blank" rel="noopener noreferrer"> Instagram</a>
+            </div>
 
-            <br>
+            <br> <!--Esto en un salto de línea-->
 
-            <i class='bx bxl-facebook-circle' ></i><a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"> Facebook</a>
+            <!-- PONER AQUÍ LAS REDES SOCIALES -->
+            <div class="redes">
 
-            <br>
+                <h4>Síguenos:</h4>
 
-            <i class='bx bxl-whatsapp' ></i> <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"> WhatsApp</a>
+                <i class='bx bxl-instagram'></i><a href="https://www.instagram.com/?hl=es" target="_blank"
+                    rel="noopener noreferrer"> Instagram</a>
 
-        </div>
+                <br>
 
-    </footer>
-    <script src="./js/JavaScript.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                <i class='bx bxl-facebook-circle'></i><a href="https://es-la.facebook.com/" target="_blank"
+                    rel="noopener noreferrer"> Facebook</a>
+
+                <br>
+
+                <i class='bx bxl-whatsapp'></i> <a href="https://web.whatsapp.com/" target="_blank"
+                    rel="noopener noreferrer"> WhatsApp</a>
+
+            </div>
+
+        </footer>
+        <script src="./js/JavaScript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

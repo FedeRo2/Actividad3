@@ -16,26 +16,33 @@
     <title>Productos</title>
 </head>
 
-<body background-color="rgb(250, 243, 240)">
+<body>
 
     <div class="container-fluid">
-
-        <div class="header">
             <header>
                 <!-- Aquí va el logo del sitio web-->
-                <div class="logo">
-                  
-                <a href="./index.html"> <img src="img/logo.png" alt="Logo" height="200px"> </a> 
-
+                <div class="logo">                 
+                  <a href="./index.html"> <img src="img/logo.png" alt="Logo"> </a> 
                 </div>
 
                 <!--Aquí está la barra de navegación-->
-                <nav class="barra-nav">
+<!--                 <nav class="barra-nav">
                     <a href="./index.html">Inicio</a> |
                     <a href="./clientes.html">Clientes</a> |
                     <a href="./contacto.html">Contacto</a>
-                </nav>
-    
+                </nav> -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+
             </header>
         </div>
 
@@ -43,52 +50,58 @@
     <hr> <!--Esto es una línea de sepración después de la barra de navegación-->
     
     <main> <!-- Aquí comienza el contenido principal-->
+        <div class="container-fluid">
+            <div class="container mt-3">
+                <h1>Lista de productos:</h1>
+                <p></p>            
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Categorias</th>
+                      <th>Variedades</th>
+                      <th>Precio</th>
+                      <th>Imagen</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Tortas y Tartas</td>
+                      <td>Lemon Pie, Marquise, Ganache, Tarta de Frutilla</td>
+                      <td>$10.000</td>
+                      <td>
+                        <img class="img-fluid" src="./img/torta34.jpg" alt=""> <!--Imágen relacionada al tema elegido-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Box para regalar</td>
+                      <td>Shots, Minitartitas y Macarons</td>
+                      <td>$7.000</td>
+                      <td>
+                        <img class="img-fluid" src="./img/tartitas.jpg" alt=""> <!--Imágen relacionada al tema elegido-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Cuadrados, Alfajores y Budines</td>
+                      <td>Caja Chocobom, Budin, Cuadrados de Frutos Rojos</td>
+                      <td>$5.000</td>
+                      <td>
+                         <img class="img-fluid" src="./img/tartitas33.jpg" alt=""> <!--Imágen relacionada al tema elegido-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Postres y Helados</td>
+                      <td>En Vasito o en bochas</td>
+                      <td>$1.000</td>
+                      <td>
+                         <img class="img-fluid" src="./img/postres-en-vasito-300x200.jpg" alt=""> <!--Imágen relacionada al tema elegido-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-        <section id="seccion2-servicios">
+        </div>
 
-            <h1><strong>
-                Lista de productos:</strong>
-            </h1>
-
-            <table>
-                <tr>
-                    <th>Categorias</th>
-                    <th>Variedades</th>
-                    <th>Precio</th>
-                    <th>Imagen</th>
-                </tr>
-
-                <tr>
-                    <td>Tortas y Tartas</td>
-                    <td>Lemon Pie, Marquise, Ganache, Tarta de Frutilla</td>
-                    <td>$10000</td>
-                    <td>
-                        <img src="img/torta34.avif" alt="" height="170px" class="img"> <!--Imágen relacionada al tema elegido-->
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>Box para regalar</td>
-                    <td>Shots, Minitartitas y Macarons</td>
-                    <td>$7000</td>
-                    <td>
-                        <img src="img/tartitas.avif" alt="" height="170px" class="img"> <!--Imágen relacionada al tema elegido-->
-                        
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>Cuadrados, Alfajores y Budines</td>
-                    <td>Caja Chocobom, Budin, Cuadrados de Frutos Rojos</td>
-                    <td>$5000</td>
-                    <td>
-                        <img src="img/tartitas33.jpg" alt="" height="150px" class="img"> <!--Imágen relacionada al tema elegido-->
-                    </td>
-                </tr>
-
-            </table>
-            
-        </section>
     </main>
 
     <br> <!--Esto en un salto de línea después del contenido principal-->
