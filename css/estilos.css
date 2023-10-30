@@ -40,7 +40,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-size: 48px;
+    font-size: 30px;
 }
 
 .nav a:hover {
@@ -55,7 +55,7 @@ header {
     color: rgb(218, 117, 34);
 }
 
-.banner img {
+ #banner img {
     display: flex;
     width: 100%;
     margin: 0;
@@ -88,10 +88,11 @@ body {
 h1 { 
     color: rgb(12, 12, 11);
     font-family: 'Sofia', cursive;
+    font-size: 50px;
     justify-content: center;
     align-content: center;
  }
-
+ 
 h2 {  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -104,8 +105,9 @@ h2 {
 }
 
 p { 
-    color: black;
+    color: rgb(87, 31, 31);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
  }
 
 /* p, h2 {
