@@ -39,8 +39,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    font-size: 30px;
+    gap: 1rem;
+    font-size: 2rem;
 }
 
 .nav a:hover {
@@ -48,7 +48,6 @@ header {
     background-color: chocolate;
     border: 2px solid red;
     padding: 10px;
-    border-radius: 50px 20px;
 }
 
 .nav-link {
@@ -60,7 +59,7 @@ header {
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 230px;
+    height: 30vh;
 }
 
 /* ESTILOS EN ENLACES HREF */
