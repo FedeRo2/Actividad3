@@ -55,7 +55,7 @@ header {
     color: rgb(218, 117, 34);
 }
 
- #banner img {
+ .banner img {
     display: flex;
     width: 100%;
     margin: 0;
