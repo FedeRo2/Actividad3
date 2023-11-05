@@ -1,147 +1,81 @@
-/* Agregar: fuentes de Google, iconos de FontAwesome */
-@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-  
-/*RGB(250, 243, 240)Durazno
-rgb(212, 226, 212)Sabio
-RGB(255, 202, 204)Rosa
-RGB(219, 196, 240)Purpura
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Sofia&display=swap');
 
-/* ESTILO EN TODO EL HTML */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.1rem;
+    /* overflow-x: hidden; */
 }
 
-/* ESTILO EN TODO HEADER */
-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
-    border: 3px solid burlywood;
-    height: fit-content;
-    width: auto;
-    gap: 100px;
+/* Paleta de colores */
+/*  color: #faf3f0;
+    #4e3f38  #d56737  #f18657  #f9ede7 */
+
+body {
+    padding: 0;
+    overflow-x: hidden;
+}
+ 
+.container-fluid {
+    padding: 0;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
+.header {
+    background-color: #f18657;
     align-items: center;
 }
 
-/* ESTILO EN BARRA DE NAVEGACIÓN */
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    font-size: 2rem;
+.navbar {
+    background-color: #f9ede7;
+    padding: 0;
 }
 
-.nav a:hover {
-    color: azure;
-    background-color: chocolate;
-    border: 2px solid red;
-    padding: 10px;
+.nav-item :active {
+    color: rgb(218, 117, 34);
 }
 
 .nav-link {
     color: rgb(218, 117, 34);
 }
 
- .banner img {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 30vh;
-}
-
-/* ESTILOS EN ENLACES HREF */
-a {
-    text-decoration: none;
-}
-
-/* ESTILOS EN EL BODY */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color:rgb(250, 243, 240);
-    padding: 0;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- }
-
-/* ESTILOS EN H1, H2, H3 */
-h1 { 
-    color: rgb(12, 12, 11);
-    font-family: 'Sofia', cursive;
-    font-size: 50px;
-    justify-content: center;
-    align-content: center;
- }
- 
-h2 {  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.presentacion {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(218, 117, 34);
-    display: flex;
-    justify-content: center;
-}
-
-p { 
-    color: rgb(87, 31, 31);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
- }
-
-/* p, h2 {
-    background-color: white;
+/* .nav-tabs :active {
+    background-color: aqua;
 }
  */
+.nav a:hover {
+    color: #f9ede7;
+    background-color: #d56737;
+}
+
 a { 
-    color: rgb(211, 89, 45);
+    color: #f9ede7;
 }
 
-.main-section-index {
-    /* background-color:rgb(212, 226, 212); */
-    /* background-color: #faf3f0; */
-    background-color: white;
-    height: 3%;
-    margin: 3%;
-    padding: 2%;
+.banner img {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
 }
 
-.presentación {
-    color: rgb(218, 117, 34); 
+h1 {
+    color: #d56737;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-/* ESTILOS EN LAS TARJETAS DE PRODUCTOS DEL ÍNDICE */
+h2 {
+    color: #f18657;
+    font-weight: bold;
+}
 
-.card .img:hover {
-    transform: scale(1.2);
-    transition: 1s;
-} 
+p {
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 1rem;
+    font-family: 'Sofia', cursive;
+
+}
 
 .fotos-productos {
     display: flex;
@@ -157,8 +91,18 @@ a {
     box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
 }
 
+.card .img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+} 
+
+.btn {
+    background-color: #f18657;
+}
+
 /* ESTILOS EN LA SECCIÓN DELIVERY DE ÍNDICE */
-#delivery h1 {
+#delivery h2 {
+    display: flex;
     color: rgb(218, 117, 34);
     justify-content: center;
     align-items: center;
@@ -191,32 +135,8 @@ a {
     }
   }
 
-/* ESTILOS EN TABLA DE PRODUCTOS */
-table,
-th,
-td {
-    table-layout: fixed;
-    border: solid 2px black;
-    border-collapse: collapse;
-    padding: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* ESTILO SOLO EN EL TH */
-th {
-    background-color: bisque;
-}
-
-/* ESTILOS EN CARRUSEL DE FOTOS EN CLIENTES */
-.container-carrusel  {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.carousel-inner{
-    margin: 0;
+.calificacion {
+    color: gold;
 }
 
 /* ESTILOS EN EL FORMULARIO DE CONTACTO */
@@ -224,7 +144,7 @@ form {
     margin: 10px;
     box-sizing: border-box;
     display: block;
-    width: 40vh;
+    width: 50vh;
     background-color: white;
     border: solid;
 }
@@ -240,80 +160,22 @@ input, label {
     width: fit-content;
 }
 
-/* ESTILOS EN EL FOOTER */
+/* Estilos del pie de página */
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-weight: bold;
-    background-color: burlywood;
-    /* background-color: #FFCACC; */
+    background-color: #4e3f38;
+    color: #f18657;
+/*     padding: 0;
+    margin: 0; */
 }
 
-footer h3 {
-    font-style: oblique;
-    font-weight: bold;
-    color: rgb(218, 117, 34); 
-    font-size: 30px;
+footer h3, h5, h6 {
+    color: #f18657;
 }
 
-footer a, i {
-    font-size: 30px;
-    font-weight: bold;
+.arriba {
+    color: #f18657;
 }
 
-
-/* ESTILO EN TESTIMONIOS Y CALIFICACIONES */
-.testimonios h1 {
-    display: flex;
-    justify-content: center;
-    align-items: centers;
+#enlaces-mapa-sitio a {
+    color: #f18657;
 }
-
-/* .testimonios p {
-    display: flex;
-} */
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:2%;
-    font-size: 24px;
-}
-
-.card-container .card{
-    display: flex;
-    box-shadow: 5px 5px 5px rgba(218, 117, 34, 0.473);
-    padding: 1%;
-    width: 22%;
-    height: 22em;
-    overflow: hidden;
-}
-
-.calificacion1 { 
-    color: gold;
-    font-size: 40px;
-}
-
-.calificacion2 { 
-    color: gold;
-    font-size: 40px;
-}
-
-.calificacion3 { 
-    color: gold;
-    font-size: 40px;
-}
-
-.calificacion4 { 
-    color: gold;
-    font-size: 40px;
-}
-
