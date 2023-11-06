@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1rem;
-    /* overflow-x: hidden; */
+/*     font-size: 1.1rem;
+    min-height: 0px; */
 }
 
 /* Paleta de colores */
@@ -13,11 +13,6 @@
     #4e3f38  #d56737  #f18657  #f9ede7 */
 
 body {
-    padding: 0;
-    overflow-x: hidden;
-}
- 
-.container-fluid {
     padding: 0;
 }
 
@@ -39,10 +34,6 @@ body {
     color: rgb(218, 117, 34);
 }
 
-/* .nav-tabs :active {
-    background-color: aqua;
-}
- */
 .nav a:hover {
     color: #f9ede7;
     background-color: #d56737;
@@ -52,6 +43,12 @@ a {
     color: #f9ede7;
 }
 
+/* .banner {
+    background: url(/img/pasteleria_banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+}
+ */
 .banner img {
     display: flex;
     width: 100%;
@@ -71,10 +68,8 @@ h2 {
 }
 
 p {
-    /* font-family: 'Roboto', sans-serif; */
     font-size: 1rem;
     font-family: 'Sofia', cursive;
-
 }
 
 .fotos-productos {
@@ -84,7 +79,6 @@ p {
     gap: 25px;
     justify-content: center;
     align-items: center;
-/* background-color: rgb(212, 226, 212) */
 }
 
 .fotos-productos .card {
@@ -92,7 +86,7 @@ p {
 }
 
 .card .img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
 } 
 
@@ -122,7 +116,7 @@ p {
 
 .delivery > img {
     width: 15%;
-    animation: ease-in animat 1s;
+    animation: ease-in animat 1.5s;
     border-radius: 10%;
 }
 
@@ -164,8 +158,6 @@ input, label {
 footer {
     background-color: #4e3f38;
     color: #f18657;
-/*     padding: 0;
-    margin: 0; */
 }
 
 footer h3, h5, h6 {
