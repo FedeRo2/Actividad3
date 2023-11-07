@@ -134,25 +134,6 @@ p {
 }
 
 /* ESTILOS EN EL FORMULARIO DE CONTACTO */
-form {
-    margin: 10px;
-    box-sizing: border-box;
-    display: block;
-    width: 50vh;
-    background-color: white;
-    border: solid;
-}
-
-/* ESTILOS INPUT y LABEL DEL FORMULARIO DE CONTACTO */
-input, label {
-    margin: 10px;
-    width: 80%;
-}
-
-/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO DE CONTACTO */
-.enviar {
-    width: fit-content;
-}
 
 /* Estilos del pie de página */
 footer {
