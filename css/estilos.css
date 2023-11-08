@@ -134,7 +134,21 @@ p {
 }
 
 /* ESTILOS EN EL FORMULARIO DE CONTACTO */
-
+form {
+    margin: 10px;
+    display: block;
+    background-color: rgb(253, 253, 253);
+    
+}
+/* ESTILOS INPUT y LABEL DEL FORMULARIO DE CONTACTO */
+input, label {
+    margin: 5px;
+    width: 50%;
+}
+ */
+/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO DE CONTACTO */
+.enviar {
+    width: fit-content; }
 /* Estilos del pie de página */
 footer {
     background-color: #4e3f38;
