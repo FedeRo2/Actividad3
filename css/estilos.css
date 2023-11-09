@@ -129,6 +129,14 @@ p {
     }
   }
 
+/* Estilos en la barra de navegación */
+.barranav {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+/* Estilos de las estrellas de calificación */
 .calificacion {
     color: gold;
 }
