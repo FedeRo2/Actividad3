@@ -61,82 +61,78 @@
                     <br>
             </section>
             <br>
-            <section>
-
-                 
-                <div class= "container d-flex justify-content-center align-items-center"></div> 
+    
+            
                 
-                        
-                    
-                    <form class="row g-3" >
-                        <form name="formularioconsultas" class="col-6 needs-validation" acción="https://formsubmit.co/vilchezroxana94@gmail.com " método="POST" novalidate> 
-                        <div class="col-md-4">
-                        <label for="validationServer01" class="form-label">NOMBRE</label>
-                        <input type="text" name="NOMBRE" class="form-control is-valid" id="validationServer01" required>
-                        <div class="valid-feedback">
-                            Correcto!
-                        </div>
-                        </div>
-                        <div class="col-md-4">
-                        <label for="validationServer02" class="form-label">APELLIDO</label>
-                        <input type="text" name="APELLIDO" class="form-control is-valid" id="validationServer02" required>
-                        <div class="valid-feedback">
-                            Correcto!
-                        </div>
-                        </div>
-                        <div class="col-md-4">
-                        <label for="validationServerUsername" class="form-label">MAIL</label>
-                        <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                            <input type="text" name="MAIL" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-                            <div class="valid-feedback">
-                            Ingrese un mail.
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-4">
-                        <label for="validationServer03" class="form-label">CIUDAD</label>
-                        <input type="text" name="CIUDAD" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                        <div id="validationServer03Feedback" class="invalid-feedback">
-                            Ingrese su Ciudad. 
-                        </div>
-                        </div>
-                        <div class="col-md-3">
-                        <label for="validationServer04" class="form-label">PAIS</label>
-                        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-                            <option selected disabled value=""></option>
-                            <option>...</option>
-                        </select>
-                        <div id="validationServer04Feedback" class="invalid-feedback">
-                            Ingrese su pais.
-                        </div>
-                        </div>
-                        <div class="col-md-3">
-                        <label for="validationServer05" class="form-label">CONSULTA</label>
-                        <input type="text" name="CONSULTA" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-                        <div id="validationServer05Feedback" class="invalid-feedback">
-                            Ingrese su consulta.
-                        </div>
-                        </div>
-                        <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
-                            <label class="form-check-label" for="invalidCheck3">
-                            ACEPTO LOS TERMINOS Y CONDICIONES.
-                            </label>
-                            <div id="invalidCheck3Feedback" class="invalid-feedback">
-                                Debes aceptar los términos y condiciones 
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-12">
-                        <button class="btn btn-primary" type="submit">ENVIAR CONSULTA</button>
-                        </div>
-                    </form>
-                </div>
-            </section>
+              <!--formulario-->
+              
+        
+           
+           <form>
+           <div class="container">
+             <div class="row"> 
+               <div class="col">
+                  <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+        
+        
+            <form class="row g-3 needs-validation" novalidate>
+                
+               <div class="col-md-3">
+               <Label for="nombre" class="for-label">NOMBRE</Label>
+               <Input id="nombre" name="nombre" type="text" class="form-control" required>
+                <div class="valid-feedback">campletado</div>
+                <div class="invalid-feedback">complete los datos</div>
+                   </div>
+
+            <div class="col-md-3">
+            <Label for="apellido" class="form-label">APELLIDO</Label>
+            <Input id="apellido" name="apellido" type="text" class="form-control" required>
+                <div class="valid-feedback">campletado</div>
+                <div class="invalid-feedback">complete los datos</div>
+                     </div>
+
+            <div class="col-md-3">
+                <Label for="ciudad" class="form-label">CIUDAD</Label>
+            <select name="ciudad "  id="ciudad" class="form-select" required>
+                <option selected disabled value=>Seleccione...
+                <option>Buenos Aires</option>
+                <option>Cordoba</option>
+                <option >Santa Fe</option>
+                <option >Salta</option>
+            </select>
+
+            <div class="valid-feedback">completado</div>
+                <div class="invalid-feedback">complete los datos</div>
+        </div>
+
+        <div class="col-md-3">
+            <Label for="TELEFONO" class="form-label">TELEFONO</Label>
+          <Input id="TELEFONO" name="nombre" type="text" class="form-control" required>
+           <div class="valid-feedback">completado</div>
+           <div class="invalid-feedback">complete los datos</div>
+           </div>
+    
+        <div class="col-md-6">
+            <Label for="MENSAJE" class="form-label">MENSAJE</Label>
+            <textarea class="form-control" cols="20" rows="7"></textarea>
+            <div class="valid-feedback">completado</div>
+           <div class="invalid-feedback">complete los datos</div>
+    
+   
+           <div class="col-md-4 offset-md-4 text-center" >
+
+        <button type="submit" class="btn btn-warning fw-bold">ENVIAR</button>
+
+    </div> 
+   </div>
+    
+            </form>
+        
+    
+            
             <br>
         </main>
+         </section>
 
         <footer>
             <div class="row text-center">
