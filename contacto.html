@@ -65,69 +65,68 @@
             
                 
               <!--formulario-->
-              
+               <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+
+                            <form name="formconsultas" class="row g-3 needs-validation" action="https://formsubmit.co/vilchezro33@hotmail.com" method="POST" novalidate>
+                                <div class="col-md-4">
+                                  <label for="validationCustom01" class="form-label">NOMBRE</label>
+                                  <input type="text" name="nombre" minlength="3" maxlength="30" class="form-control" id="validationCustom01" required>
+                                  <div class="valid-feedback">
+                                    correcto!
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="validationCustom02" class="form-label">APELLIDO</label>
+                                  <input type="text" name="apellido" minlength="3" maxlength="30" class="form-control" id="validationCustom02" required>
+                                  <div class="valid-feedback">
+                                    correcto!
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="validationCustomUsername" class="form-label">MAIL</label>
+                                  <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="email" name="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                      Ingrese su mail.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="validationCustom03" class="form-label">TELEFONO</label>
+                                  <input type="text" name="telefono" class="form-control" id="validationCustom03" required>
+                                  <div class="invalid-feedback">
+                                    Ingrese numero de telefono.
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <label for="validationCustom05" class="form-label">MENSAJE</label>
+                                  <input type="text" name="mensaje" minlength="15" class="form-control" id="validationCustom05" required>
+                                  <div class="invalid-feedback">
+                                    Ingrese su consulta.
+                                  </div>
+                                </div>
+                                <div class=col-12>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                      Acepto los terminos y condiciones.
+                                    </label>
+                                    <div class="invalid-feedback">
+                                      Debe estar de acuerdo antes de enviar.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button class="btn btn-primary" type="submit" onclick="validarDatos()">ENVIAR</button>
+                                </div>
+                              </form>
         
            
-          <form>
-             
-           <div class="container">
-             <div class="row"> 
-               <div class="col">
-                  <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
-        
-        
-            <form class="row g-3 needs-validation" novalidate>
-                
-               <div class="col-md-3">
-               <Label for="nombre" class="for-label">NOMBRE</Label>
-               <Input id="nombre" name="nombre" type="text" class="form-control" required>
-                <div class="valid-feedback">completado</div>
-                <div class="invalid-feedback">complete los datos</div>
-                   </div>
-
-            <div class="col-md-3">
-            <Label for="apellido" class="form-label">APELLIDO</Label>
-            <Input id="apellido" name="apellido" type="text" class="form-control" required>
-                <div class="valid-feedback">completado</div>
-                <div class="invalid-feedback">complete los datos</div>
-                     </div>
-
-            <div class="col-md-3">
-                <Label for="ciudad" class="form-label">CIUDAD</Label>
-            <select name="ciudad "  id="ciudad" class="form-select" required>
-                <option selected disabled value=>Seleccione...
-                <option>Buenos Aires</option>
-                <option>Cordoba</option>
-                <option >Santa Fe</option>
-                <option >Salta</option>
-            </select>
-
-            <div class="valid-feedback">completado</div>
-                <div class="invalid-feedback">complete los datos</div>
-        </div>
-
-        <div class="col-md-3">
-            <Label for="TELEFONO" class="form-label">TELEFONO</Label>
-          <Input id="TELEFONO" name="nombre" type="text" class="form-control" required>
-           <div class="valid-feedback">completado</div>
-           <div class="invalid-feedback">complete los datos</div>
-           </div>
-    
-        <div class="col-md-6">
-            <Label for="MENSAJE" class="form-label">MENSAJE</Label>
-            <textarea class="form-control" cols="20" rows="7"></textarea>
-            <div class="valid-feedback">completado</div>
-           <div class="invalid-feedback">complete los datos</div>
-    
-   
-           <div class="col-md-4 offset-md-4 text-center" >
-
-        <button type="submit" class="btn btn-warning fw-bold">ENVIAR</button>
-
-    </div> 
-   </div>
-    
-            </form>
+              
         
     
             
