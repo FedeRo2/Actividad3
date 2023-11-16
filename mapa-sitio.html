@@ -16,41 +16,41 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-#f9ede7"> <!-- bg-body-tertiary -->
-            <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./img/logo.png" alt="Logo de Dulzura Pastelería" id="arriba">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./clientes.html">Clientes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-                </ul> 
-            </div>
-            </div>
-        </nav>
+    <div class="container-fluid">
+        <header>
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo.png" alt="Logo" width="120px" height="auto" class="img-fluid"> <!--Logo-->
+                    </a>
+                </div>
 
-        <div class="banner">
-            <img src="./img/pasteleria_banner.jpg" alt="Banner" />
-        </div>
-    </header>
+                <nav class="col" class="barranav"> <!--navbar-->
+                    <ul class="nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>    
+            </div>
+
+            <div class="banner">
+                <img src="./img/pasteleria_banner.jpg" alt="Banner" />
+            </div>
+
+        </header>
+    </div>
 
     <main>
-        <br>
         <div class="container text text-center">
             <section id="enlaces-mapa-sitio">
                 <h1>Mapa del sitio</h1>
@@ -62,47 +62,42 @@
                 <b>Vista en <a href="./img/mapa-sitio-pdf.pdf" target="_blank">PDF</b></a> - <b>Versión en <a href="./mapa-sitio.xml" target="_blank">XML</b></a>
             </section>
         </div>
+
         <br>
+
     </main>
 
-    <br>
-    
     <footer>
-        <div class="container-fluid">
-            <div class="row d-flex text-center align-items-center">
-                <div class="col-4">
-                    <!-- <h5>Desarrollado por:</h5> -->
-                    <h5>Grupo 9 &reg;</h5>
-                </div>
+        <div class="row text-center">
+            <div class="col">
+                <h5>Desarrollado por:</h5>
+                <h5>Grupo 9 - UNC &reg;</h5>
+            </div>
 
-                <div class="col-4">
-                    <h5><a href="#arriba" class="arriba">Volver arriba</a></h5>
-                    <a href="./mapa-sitio.html" target="_blank">
-                        <h5>Ver mapa del sitio</h5>
-                    </a>
-                </div>
+            <div class="col">
+                <h5><a href="#arriba" class="arriba">Volver arriba</a></h5>
+                <a href="./mapa-sitio.html" target="_blank">
+                    <h5>Ver mapa del sitio</h5>
+                </a>
+            </div>
 
-                <div class="col-4">
-                    <br>
-                    <h2>
+            <div class="col">
+                <h3>Redes:</h3>
+                <i class="bx bxl-instagram"></i><a href="https://www.instagram.com/?hl=es" target="_blank"
+                    rel="noopener noreferrer"> Instagram</a>
 
-                    <a href="https://www.instagram.com/?hl=es" target="_blank" rel="noopener noreferrer"> <i
-                            class="bx bxl-instagram"></i> </a>
+                <br />
 
-                    <br />
+                <i class="bx bxl-facebook-circle"></i><a href="https://es-la.facebook.com/" target="_blank"
+                    rel="noopener noreferrer"> Facebook</a>
 
-                    <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"> <i
-                            class="bx bxl-facebook-circle"></i> </a>
+                <br />
 
-                    <br />
-
-                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"> <i
-                            class="bx bxl-whatsapp"></i> </a>
-                    </h2>
-                </div>
-
+                <i class="bx bxl-whatsapp"></i><a href="https://web.whatsapp.com/" target="_blank"
+                    rel="noopener noreferrer"> WhatsApp</a>
             </div>
         </div>
+
         <br>
 
     </footer>
