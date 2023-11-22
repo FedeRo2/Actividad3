@@ -14,9 +14,9 @@ Desarrollamos para esta actividad el sitio web al que llamamos "Dulzura - Pastel
 ## Tecnologías utilizadas
 * HTML5
 * CSS3
-* Bootstrap 5.3.2
-* JavaScript para la parte visual y las funcionalidades del sitio
+* Bootstrap 5.3.2.
+* JavaScript para una otra validación del formulario de conatcto y Eventos DOM HTML.
 * GitHub Desktop (control de versiones)
-* Repositorio subido en GitHub
+* Servicio de hosting GitHub Pages.
 
 ## Nuestra web: 👉🏻👉 https://federo2.github.io/Actividad3/
