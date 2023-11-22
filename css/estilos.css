@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+/*     font-size: 1.1rem;
+    min-height: 0px; */
 }
 
 /* Paleta de colores */
@@ -12,18 +14,17 @@
 
 body {
     padding: 0;
-    overflow-x: hidden;
 }
 
-/* .header {
+.header {
     background-color: #f18657;
     align-items: center;
-} */
+}
 
-/* .navbar {
+.navbar {
     background-color: #f9ede7;
     padding: 0;
-} */
+}
 
 .nav-item :active {
     color: rgb(218, 117, 34);
@@ -31,20 +32,9 @@ body {
 
 .nav-link {
     color: rgb(218, 117, 34);
-    font-size: 1.2rem;
 }
 
 .nav a:hover {
-    color: #f9ede7;
-    background-color: #d56737;
-}
-
-#navbarSupportedContent a:hover {
-    color: #f9ede7;
-    background-color: #d56737;
-}
-
-.nav :active a:hover {
     color: #f9ede7;
     background-color: #d56737;
 }
@@ -53,8 +43,14 @@ a {
     color: #f9ede7;
 }
 
+/* .banner {
+    background: url(/img/pasteleria_banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+}
+ */
 .banner img {
-    /* display: flex; */
+    display: flex;
     width: 100%;
     height: 30vh;
     margin: 0;
@@ -120,7 +116,7 @@ p {
 
 .delivery > img {
     width: 15%;
-    animation: ease-in animat 3.0s;
+    animation: ease-in animat 1.5s;
     border-radius: 10%;
 }
 
@@ -134,19 +130,10 @@ p {
   }
 
 /* Estilos en la barra de navegación */
-/* .barranav {
+.barranav {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-}
- */
-/* Estilos en la tabla de productos */
-table {
-    font-size: larger;
-}
-
-td {
-    font-size: 1.2em;
 }
 
 /* Estilos de las estrellas de calificación */
@@ -155,56 +142,49 @@ td {
 }
 
 /* ESTILOS EN EL FORMULARIO DE CONTACTO */
-/* form {
+  form {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 50vh;
     display: flex;
     align-items: center;
     background-color:white;
-} */
-
+    
+}
 /* ESTILOS INPUT y LABEL DEL FORMULARIO DE CONTACTO */
-/* input {
+  input {
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border: 20px;
     text-align: center;
     width: 340px;
-    background-color: #e05417;
+    background-color: #e0dd17;
     flex-direction: column;
 }
-*/
-
-/*
-input, textarea {
+  input, textarea {
     background-color: rgb(173, 138, 91);
     padding: 20px 14px;
     margin-bottom: 25px;
     border: 0;
     border-radius: 10px;
     font-size: 15px;
- } */
-  
 
+
+ }
+  
+ */
 /* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO DE CONTACTO */
-/* .enviar {
+.enviar {
     font-size: 17px;
     cursor: pointer;
-    width: fit-content; 
-} */
-
+    width: fit-content; }
 /* Estilos del pie de página */
 footer {
     background-color: #4e3f38;
     color: #f18657;
 }
 
-footer, a, h1, h3, h5, h6 {
+footer h3, h5, h6 {
     color: #f18657;
-}
-
-footer a {
-    text-decoration: none;
 }
 
 .arriba {
